@@ -1,40 +1,37 @@
 body{
 	background: #f3f7f6; 
-	font-family: Tahoma, Arial, sans-serif;
-	font-size: 14px;
 	}
-div{
+a {
+	font-style: italic; 
+	}
+.main{
 	margin: auto; 
 	width: 500px; 
-	}	
-div p{
-	color: gray;
 	}
-h1 {
+.main_header{
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 24px;
+	font-family: sans-serif, Arial, Tahoma;
 	font-weight: bold;
-	}
-img {
-	height: 200px;
-	width: 200px;
-	border: 1px;
-	}
-a {
-	font-style: italic;
-	font-weight: bold;	
 	}	
+.sub_header{
+	font-family: sans-serif, Arial, Tahoma;
+	font-size: 16px;
+	font-weight: bold;	
+	}
 .my_photo{
 	text-align: center;
 	}
-.box1{ 
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	}
-.box2{
-	border-bottom: 1px solid gray;
-	}
 .list{
 	list-style: none;
+	}
+.box1{
+	text-align: left;
+	font-size: 15px; 
+	color: gray;
+	}
+.box{
+	border-top: 1px solid gray;	
+	text-align: left;
 	}
